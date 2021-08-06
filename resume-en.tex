@@ -1,0 +1,207 @@
+%%
+%% Copyright (c) 2018-2019 Weitian LI <wt@liwt.net>
+%% CC BY 4.0 License
+%%
+%% Résumé
+%% ------
+%% A short document (1-2 pages) to sum up the job-related accomplishments
+%% and experience.
+%%
+%% Checklist
+%% ---------
+%% * Contact Information
+%% * Work History / Experience
+%% * Education
+%% * Skills
+%% * Summary & Objective (optional)
+%% * Hobbies & Interests (optional)
+%%
+%% Credits
+%% -------
+%% * CV vs. Resume: What is the Difference? When to Use Which?
+%%   https://uptowork.com/blog/cv-vs-resume-difference
+%% * How to Make a Resume: A Step-by-Step Guide (+30 Examples)
+%%   https://uptowork.com/blog/how-to-make-a-resume
+%% * Entry-Level Resume: Sample and Complete Guide (+20 Examples)
+%%   https://uptowork.com/blog/entry-level-resume-example
+%%
+%% Created: 2018-04-14
+%%
+
+% English version
+\documentclass{resume}
+
+% Adjust icon size (default: same size as the text)
+\iconsize{\Large}
+
+% File information shown at the footer of the last page
+\fileinfo{%
+  \faCopyright{} 2019--2021, Heng Zhang \hspace{0.5em}
+  \creativecommons{by}{4.0} \hspace{0.5em}
+  \githublink{https://github.com/jack-sherman01/}{resume} \hspace{0.5em}
+  \faEdit{} \today
+}
+
+\name{Heng}{Zhang}
+%\keywords{BSD, Linux, Programming, Python, C, Shell, DevOps, SysAdmin}
+% \tagline{\icon{\faBinoculars}} <position-to-look-for>}
+% \tagline{<current-position>}
+% \photo{<height>}{<filename>}
+\profile{
+  \mobile{191-456-99094}
+  \email{hengzhang001@tongji.edu.cn}
+  \github{jack-sherman01} \\
+  \degree{M.E. in Robotics}
+  \university{Tongji University (TJU)}
+%  \birthday{1991 Sept.}
+  \address{Shanghai}
+  \home{\href{https://jack-sherman01.github.io/heng.github.io/}{Heng's Page}}\\
+  % Custom information:
+  % \icontext{<icon>}{<text>}
+  % \iconlink{<icon>}{<link>}{<text>}
+}
+
+\begin{document}
+\makeheader
+
+%======================================================================
+\sectionTitle{About Me}{\faAngellist}
+%======================================================================
+I am now a 2nd-year master student in \href{https://rail.tongji.edu.cn/}{RAIL} Lab at Tongji University (TJU), working with Prof.\href{https://see.tongji.edu.cn/info/1233/7519.htm} {Qijun Chen}. Highly-motivated in robotics with good foundations of math and programming. Proficient in data modeling and analysis, and enthusiastic about computer and the corresponding interdisciplinary subject.
+
+I'm interested in Robot Learning, Intelligent Motion Control, Cognitive Learning and their applications towards Artificial General Intelligence (AGI). My current research interest focuses include:
+\begin{itemize}
+  \item Human-Robot Interaction (collaborative robot motion control, and drag teaching, force control);
+  \item Imitation learning, robot learning and representation learning;
+  \item visual reasoning, attention and saliency (cognitive learning, commonsense reasoning).\\
+\end{itemize}
+
+%======================================================================
+\sectionTitle{Education}{\faGraduationCap}
+%======================================================================
+\begin{educations}
+  \education%
+    {September 2019}%
+    [present]%
+    {Tongji University (TJU)}%
+    {College of Electronic and Information Engineering}%
+    {Control Engineering   \quad \textbf{GPA}:4.45}%
+    {M.E.}\\
+
+  \separator{0.5ex}
+  \education%
+    {September 2012}%
+    [June 2016]%
+    {Northeast Electric Power University}%
+    {Department of Automation and Engineering}%
+    {Automation\quad{\textbf{Honor}: Outstanding Undergraduate Thesis}}%
+    {Bachelor's Degree}
+    
+\end{educations}
+
+
+%======================================================================
+\sectionTitle{Selected Publications}{\faGoogle}
+%======================================================================
+\begin{itemize}
+\item \textbf{A Survey on Imitation Learning for Robot Manipulation} \quad [under review]\\
+  \footnotesize{\textbf{Heng Zhang}, Xianyou Zhong*, Zhengang Huang, Yuan Zhao, Chengju Liu, Qijun Chen} \\
+  \footnotesize{\textit{ IEEE Transactions on Cognitive and Developmental Systems @ (TCDS).}}
+   
+\item \textbf{Sensor-Free Method with BP network to Achieve Drag Teaching on the 7-DOF Collaborative Robot} \quad [under review]\\
+  \footnotesize{\textbf{Heng Zhang}, Xianyou Zhong, Zhengang Huang, Chengju Liu, Qijun Chen*} \\
+  \footnotesize{\textit{ China Automation Conference 2021 @ (CAC2021).}}
+
+\item \textbf{Control Method, Device and Equipment of Collaborative Robot Drag Teaching Based on Motor Current}\quad [Patents]\\
+  \footnotesize{Qijun Chen, \textbf{Heng Zhang}, Chengju Liu}\\
+  \footnotesize{\textit{ CN 112894821A.}}
+  
+\item \textbf{An indoor navigation method for Pepper robot}\quad [Patents]\\
+  \footnotesize{Chengju Liu, Qijun Chen, Liwen Lu, Jiayuan Du, \textbf{Heng Zhang}}\\
+  \footnotesize{\textit{ CN 113029143A.}} 
+  
+\item \textbf{Motion recognition of human skeleton based on lightweight graph convolution based on channel attention}\quad [Patents]\\
+  \footnotesize{ Chengju Liu, Ronghao Dang, Qijun Chen, \textbf{Heng Zhang}}\\
+  \footnotesize{\textit{ CN113111760A.}}
+  
+\item \textbf{A text feature construction method based on Word2Vec and syntactic dependency tree}\quad [Patents]\\
+  \footnotesize{ Qijun Chen, Qiuchen Wang, Chengju Liu \textbf{Heng Zhang}}\\
+  \footnotesize{\textit{ CN 113111653A.}}\\
+       
+\end{itemize}
+
+%======================================================================
+\sectionTitle{Honors \& Awards}{\faFlagCheckered}
+%======================================================================
+\begin{competences}[6em]
+  \comptence{Scholarship}{
+    \textbf{1.}Innovation Scholarship for Outstanding Students,
+    \textbf{2.}Second Prize Scholarship}
+  \comptence{Contests}{%
+    \textbf{The First Prize} 2015 Siemens Cup National Industrial Automation Challenge Northeast Division,
+    \textbf{The First prize} Intelligent robot in the 8th Science and Technology Sports Championship of Jilin Province,
+    \textbf{The Third prize} National College Students Electronic Design Competition, JiLin
+  }
+  \comptence{Honors}{%
+  \textbf{1.}Winner of The Excellent Graduate Papers,\textbf{2.}
+    Outstanding student leader model
+  }
+
+\end{competences}
+
+
+
+
+%======================================================================
+\sectionTitle{Work \&Internships}{\faBriefcase}
+%======================================================================
+\begin{experiences}
+  \experience%
+    [Jul. 2020]%
+    {Oct. 2020}%
+    { Intern Algorithm Engineer @ China Railway Rolling stock Corp (CRRC), Tsingtao, China}%
+    [\begin{itemize}
+      \item Dynamics modeling on the 7-DOF collaborative robot.
+      \item Drag teaching based on a sensor-free method
+    \end{itemize}]\\
+
+  \separator{0.5ex}
+  \experience%
+    [Sep. 2020]%
+    {Apr. 2021}%
+    {Participant Student @ Project: High performance universal robot control platform}%
+    [\begin{itemize}
+      \item Motion control of 6-DOF industrial robot in joint and Cartesian space.
+      \item Communication configuration based on EthaerCAT.
+    \end{itemize}]\\
+    
+    \separator{0.5ex}
+  \experience%
+    [Jul. 2016]%
+    {Aug. 2019}%
+    {Assistant Nuclear Power Plant Design Engineer @ SMNPC at China National Nuclear Corporation (CNNC)}%
+    [\begin{itemize}
+      \item Instrument and Control (I\&C) system design for AP1000 nuclear power plant.
+      \item Learn design codes and specifications.
+    \end{itemize}]
+    
+\end{experiences}
+
+
+%======================================================================
+\sectionTitle{Community Service}{\faChild}
+%======================================================================
+People are always in a community whenever and wherever, serving for community makes me have the spirit of dedication \& team-work, I am willing to make more contribution to the community.
+ 
+\begin{competences}[6em]
+  \comptence{TA}{TA in Linear System Theory and Design}
+  \comptence{volunteer}{One-star volunteer of China Foundation for Poverty Alleviation}
+  \comptence{journalist}{Student journalist in Alumni Association}
+  \comptence{Monitor}{Serve as the monitor throughout my undergraduate years}
+
+\end{competences}
+
+
+
+
+\end{document}
