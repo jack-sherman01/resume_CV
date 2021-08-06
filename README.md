@@ -1,6 +1,5 @@
 # LaTeX简历模板
 
-> 作者：[github@liweitianux/resume](https://github.com/liweitianux/resume)
 
 ## 介绍🧙‍♂️
 
@@ -26,5 +25,9 @@
 
 3. 编译 `xelatex resume-zh.tex`
 
+##感谢
+我是在liweitian的repo上做了修改的。
+
+> thanks to 原作者：[github@liweitianux/resume](https://github.com/liweitianux/resume)
 
 
