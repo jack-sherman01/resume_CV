@@ -1,33 +1,19 @@
-# LaTeX简历模板
+A HEADS UP ABOUT DUOTONE ICONS ON THE DESKTOP
+---------------------------------------------
 
+Duotone icons are a bit different to use than other Font Awesome icons at the moment.
 
-## 介绍🧙‍♂️
+* We currently recommend using the Duotone-specific optimized .svg vector
+  files. These can be found in the /svgs/duotone folder of this download.
 
-这款LaTeX简历模板简洁而优雅，图标采用fontawesome项目安装相应的字体即可使用，提供了英文和中文两个版本
+* Using Ligatures with Duotone Icons is NOT currently recommended - while we've
+  included a Duotone ligature-based font file in our Pro desktop download, we
+  can't recommend it as a way to use our icons on the desktop. Read the special
+  instructions for using duotones with ligatures here -
+  https://fontawesome.com/how-to-use/on-the-desktop/referencing-icons/duotone-icons#using-ligatures.
 
-![resume-zh](resume-zh.png)
+You can read the nitty gritty on the current limitations desktop apps have that
+made our Duotone ligature implementation diferent there as well. And our full
+Duotone Desktop docs are available at:
 
-## 使用🚄
-
-本操作基于Windows10
-
-1. 安装`XeLaTeX`最新版（我这里是`TeXLive2020`）
-2. 安装`font`目录下字体（⚠为所有用户安装）
-
-```bash
-➜  resume git:(master) 
-├── Makefile
-├── README.md
-├── fontawesome5.sty
-├── resume-zh.tex
-└── resume.cls
-```
-
-3. 编译 `xelatex resume-zh.tex`
-
-##感谢
-我是在liweitian的repo上做了修改的。
-
-> thanks to 原作者：[github@liweitianux/resume](https://github.com/liweitianux/resume)
-
-
+https://fontawesome.com/how-to-use/on-the-desktop/referencing-icons/duotone-icons.
